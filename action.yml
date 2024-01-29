@@ -1,0 +1,7 @@
+name: "Label new pull request"
+description: "Add a label when a PR is opened."
+author: "Adam Alrasi"
+
+runs: 
+  using: "node16"
+  main: "dist/index.js"
